@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+    <form
+  action="https://formspree.io/f/movaperk"
+  method="POST"
+>
+        <h1>Job Application</h1>
+        <br>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="emailid">Email ID:</label>
+        <br>
+        <input type="email" id="emailid" name="emailid">
+        <br>
+        <label for="phone number">Phone NO.:</label>
+        <br>
+        <input type="tel" id="phone number" name="phone number">
+        <br>
+        <label for="file name">Resume:</label>
+        <br>
+        <input type="file" id="file name" name="file name">
+        <br>
+        <label for="integer">Experience(years):</label>
+        <br>
+        <input type="number" id="integer" name="integer" min="1" max="50">
+        <br>
+        <fieldset>
+                <legend>Skills</legend>
+                
+                <input type="checkbox" id="select" name="select"> 
+                <br>            
+                <label for="select">HTML</label>
+                <br>
+                <input type="checkbox" id="select" name="select">
+                <br>
+                <label for="select">CSS</label>
+                <br>
+                <input type="checkbox" id="select" name="select">
+                <br>
+                <label for="select">JavaScript</label>
+                <br>
+        </fieldset>
+        <label for="choose">Highest Education:</label>
+        <br>
+        <select name="choose" id="choose">
+            <option value="High School">High School</option>
+            <option value="Graduate">Graduate</option>
+            <option value="Mastering">Mastering</option>
+        </select>
+        <br>
+        <label for="">Availablity:</label>
+        <br>
+        <input type="radio" name="choose" id="choose">
+        <br>
+        <label for="choose">Full Time</label>
+        <br>
+        <input type="radio" name="choose" id="choose">
+        <br>
+        <label for="choose">Part Time</label>
+        <br>
+        <br>
+        <label for="comment">Additional Comment</label>
+        <br>
+        <br>
+        <textarea name="comment" id="comment" rows="5" cols="5" placeholder="comment here.."></textarea>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
